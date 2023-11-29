@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Your custom stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>MeetEase - Dashboard</title>
+</head>
+
+<body>
+    <header class="bg-primary text-white text-center py-4">
+        <h1>Dashboard</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="schedule-meeting.html">Schedule a Meeting</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="history-analytics.html">History & Analytics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="feedback.html">Feedback & Improvement</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mt-4">
+        <section>
+            <h2>Upcoming Meetings</h2>
+            <ul id="upcoming-meetings-list" class="list-group">
+                <!-- Populate this list dynamically using JavaScript -->
+                <!-- Each item in the list can have details like meeting title, date, and time -->
+            </ul>
+        </section>
+
+        <section class="mt-4">
+            <h2>Quick Actions</h2>
+            <div class="btn-group" role="group" aria-label="Quick Actions">
+                <a href="schedule-meeting.html" class="btn btn-primary">Schedule a New Meeting</a>
+                <a href="history-analytics.html" class="btn btn-secondary">View Meeting History</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3 mt-4">
+        <p>&copy; 2023 MeetEase. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Your custom script -->
+    <script src="/assets/js/dashboard.js"></script>
+</body>
+</html>
